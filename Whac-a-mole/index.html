@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Whac-a-Mole</title>
+</head>
+<body>
+    <div class="navbar blur">
+        <img src="images/bar.png" alt="bar" class="back">
+        <img src="images/circular-button.png" alt="buttons" class="circular-btn2">
+    </div>
+    <br>
+    <br>
+    <br>
+    <h1>
+        <span id="time-left">10</span>
+    </h1>
+    <button class="restart-btn blur" onclick="restart()" ><img id="play" src="images/restart.png" alt=""></button>
+    <div class="pp" id="popup">
+        <br><br>
+        <h1>Help Luffy!</h1>
+        <br><br>
+        <div>
+            <p>
+                <img src="images/luffy.png" alt="">
+                Luffy has lost his crew in the
+                <br>
+                middle of an strange Island! His 
+                <br>
+                longtime rival buggy is looking to 
+                <br>   
+                use this opportunity to strike 
+                <br>
+                against his hated enemy. 
+                <br>
+                Luffy got separated from his crew 
+                <br>
+                due to a crash landind he caused
+                <br>
+                by confusing the island for a giant
+                <br>
+                fish.
+                <br>
+                <br>
+                Zoro, Nami, Usopp, Sanji, Chopper, 
+                <br>
+                Robin, Franky, Brook have all 
+                <br>
+                engaged with the enemy.Find buggy!
+            </p>    
+            <h2>Good Luck</h2>
+            <br>
+            <br>
+            <button class="fb" onclick="begin()">START</button>
+        </div>
+    </div>
+    <div class="all">
+        <div class="box" id="1"></div>
+        <div class="box" id="2"></div>
+        <div class="box" id="3"></div>
+        <div class="box" id="4"></div>
+        <div class="box" id="5"></div>
+        <div class="box" id="6"></div>
+        <div class="box" id="7"></div>
+        <div class="box" id="8"></div>
+        <div class="box" id="9"></div>
+        <div class="box" id="10"></div>
+        <div class="box" id="11"></div>
+        <div class="box" id="12"></div>
+        <div class="box" id="13"></div>
+        <div class="box" id="14"></div>
+    </div>
+    <div class="score">
+        <img src="images/wood.png" alt="">
+        <div class="end-results">
+            <h1 id="result">45</h1>
+            <button class="fb" onclick="location.reload()">Restart</button>
+            <a href="/home.html">
+                <button class="fb quit" onclick="window.location.href='/home.ht'">Quit</button>
+            </a>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

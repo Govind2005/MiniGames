@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('images/clover2.png');
+    background-size: cover;
+    background-position: 0 -240px ;
+}
+
+/* Class selectors */
+
+.ball {
+    background-color: yellow;
+    border-radius: 100%;
+    height: 2rem;
+    position: absolute;
+    width: 2rem;
+}
+
+.info {
+    margin: 0 auto;
+    width: 30rem;
+    background-color: transparent;
+    border: none;
+    color: whitesmoke;
+    font-family: fantasy;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.shield {
+    background-color: grey;
+    height: 5%;
+    position: absolute;
+    width: 10%;
+}

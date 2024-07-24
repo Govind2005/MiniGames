@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body {
+    background-image: url("images/wallpaper.png");
+    background-size: cover;
+    color: rgb(116, 15, 15);
+    font-family: fantasy;
+    font-size: 3rem;
+}
+
+/* Class selectors */
+
+
+.card {
+    border: solid black;
+    border-radius: 5%;
+}
+
+.header {
+    background-color: white;
+    margin: 0 0 8rem 0;
+    text-align: center;
+}
+
+/* Id selectors */
+
+#grid {
+    display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    margin: 5rem auto;
+    padding: 1.2rem;
+    width: 96%;
+}
+
+
+ 

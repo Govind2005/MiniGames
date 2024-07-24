@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(67, 66, 66);
+}
+
+/* Class selectors */
+
+.btn {
+    background-image: linear-gradient(red,rgb(147, 3, 3));
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}

@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('images/forest.png');
+    background-size: cover;
+    font-family: monospace;
+    text-align: center;
+}
+
+h1 {
+    background-size: cover;
+    margin: 0.5rem;
+}
+
+img {
+    display: block;
+    margin: 0rem auto;
+    width: 30rem;
+}
+
+/* Class selector */
+
+.all {
+    display: flex;
+        flex-wrap: wrap;
+    padding: 2rem;
+    position: absolute; 
+        top: 17rem;
+}
+
+.blur {
+    filter: blur(5px) grayscale(100%);
+}
+
+.box {
+    background-color: white;
+    border: solid black 0.25rem;
+    border-radius: 100%;
+    height: 10rem;
+    margin: 1rem;
+    width: 10rem;
+}
+
+.fb {
+    border-radius: 10px;
+    background-image: linear-gradient(green,rgb(12, 135, 12),gold);
+    color: white;
+    font-family: fantasy;
+    font-size: 2.5rem;
+    height: 4rem;
+    letter-spacing: 0.3rem;
+    width: 15rem;
+}
+
+.mole {
+    background-image: url('images/mole.jpg');
+    background-size: cover;
+}
+
+.hit-mole {
+    background-image: url('images/hit-mole.png');
+    background-size: cover;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.navbar .back {
+    width: 100%;
+    height: 10rem;
+}
+
+.navbar .circular-btn1 {
+    position: relative;
+        bottom: 3rem;
+        right: 3.5rem;  
+    width: 6rem;
+}
+.navbar .circular-btn2 {
+    position: relative;
+        bottom: 4rem;
+        left: 3.5rem;
+    width: 6rem;
+}
+
+.pp {
+    background-image: url('images/popupblock.png');
+    background-size: cover;
+    background-position: 10%;
+    font-size: 1.2rem;
+    height:44rem;
+    transform: translate(50%,0%) scale(0.1);
+    position: absolute;
+        top: -18rem;
+    transition: transfrom 0.5s, top 0.5s;
+    visibility: hidden;
+    width: 725px;
+}
+
+.ppopen {
+    visibility: visible;
+    top: 3rem;
+    transform: translate(50%,0%) scale(0.8);
+    z-index: 1000;
+}
+
+.pp .fb:hover {
+    color: yellow;
+    font-size: 3rem;
+    height: 5rem;
+    width: 18rem;
+    background-image: linear-gradient(darkblue,blue,azure);
+}
+
+.pp img {
+    float: left;
+    margin-right: 2.5rem;
+    width: 12rem;
+}
+
+.pp p {
+    text-align: left;
+    word-spacing: 0.5rem;
+}
+.pp h1 {
+    background-color: brown;
+    border: solid black 3px;
+    border-radius: 10px;
+    color: rgb(64, 1, 1);
+    display: inline-block;
+    font-size: 3.5rem;
+    width: 20rem;
+}
+
+.restart-btn {
+    background-color: transparent;
+    border: none;
+    
+    position: relative;
+        bottom: 17.5rem;
+        right: 3.5rem;
+}
+
+.restart-btn img {
+    border-radius: 50%;
+    width: 6.5rem;
+}
+
+.restart-btn :hover {
+    width: 7rem;
+}
+
+.score {
+    position: absolute;
+        left: 33%;
+        top: 20rem;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+.score .end-results {
+    position: absolute;
+        left: 0rem;
+        top: 7rem;
+    width: 30rem;
+}
+
+.score .end-results button {
+    display: inline-block;
+    margin: 2rem;
+    width: 10rem;
+}
+
+.score-open {
+    visibility: visible;
+}
+
+.quit {
+    background-image: linear-gradient(red,rgb(138, 41, 41),gold);
+    
+}
+
+/* ID selectors */
+
+#time-left {
+    color: whitesmoke;
+    position: relative;
+        bottom: 12.6rem;
+        left: 3.5rem;
+    font-size: 3rem;
+}

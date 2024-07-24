@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Class selector */
+.block {
+    height: 10px;
+    width: 10px;
+}
+
+.box {
+    border: solid black;
+    display: flex;
+    flex-wrap: wrap;
+    height: 10rem;
+    width: 10rem;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 40rem;
+    margin: 5rem auto;
+    padding: 5rem;
+    width:40rem;
+}
+.container .upper {
+    border-top: none;
+}
+.container .right {
+    border-right: none;
+}
+.container .bottom {
+    border-bottom: none;
+}
+.container .left {
+    border-left: none;
+}
+.blue {
+    background-color: blue;
+    transform: skewY(45deg);
+}
+.green {
+    background-color: blue;
+    transform: skewY(-45deg);
+}
+.pink {
+    background-color: pink;
+}
+.circle {
+    background-image: url('images/circle.png');
+    background-size: cover;
+}

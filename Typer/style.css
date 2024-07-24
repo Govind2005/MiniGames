@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url('media/Screenshot\ 2024-03-28\ 110628.png');
+    background-size: cover;
+}
+
+/* Class selectors */
+
+.block {
+    border-radius: 5px;
+    font-size: 1.6rem;
+    height: 1.8rem;
+    margin: 0.5px;
+    padding: 1px;
+    text-align: center;
+    width: 20px;
+}
+
+.container {
+    background-color: whitesmoke;
+    border: solid black 2px;
+    display: flex;
+        flex-wrap: wrap;
+    margin: 8rem auto;
+    padding: 2rem;
+    width: 50rem;
+}
+
+.wrong {
+    background-color: red;
+}
+
+.done {
+    background-color: rgb(115, 164, 41);
+}
+
+.result {
+    background-color: whitesmoke;
+    height: 8rem;
+    padding: 2rem;
+    margin: 4rem auto;
+    width: 50rem;
+}

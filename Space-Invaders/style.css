@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: radial-gradient(rgb(3, 3, 109),black);
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+/* Class Selector */
+
+.star {
+    background-image: radial-gradient(white,transparent,transparent,transparent);
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+}
+
+.container {
+    border: solid black 2px;
+    background-image: radial-gradient(rgb(3, 3, 109),black);
+    display: flex;
+        flex-wrap: wrap;
+
+    height: 700px;
+    margin: 0 auto;
+    width: 1400px;
+}
+
+.invader {
+    /* background-image: radial-gradient(yellow,orange,red); */
+    background-image: url('images/alien.png');
+    background-size: cover;
+
+    border-radius: 100%;
+}
+
+.laser {
+    background-color: red;
+    height: 10px;
+    width: 5px;
+}
+
+.ship img {
+    width: 100%;
+}
+
+.saitama {
+    position: absolute;
+        top: 10rem;
+        left: 120%;
+    transform: translateX(-1000px);
+    transition:all 1.4s;
+}
+
+.opm {
+    position: absolute;
+        top: 10rem;
+        left:55%;
+    transform: translateX(1000px);
+    transition: all 0.4s;
+}
+
+.strongest {
+    position: absolute;
+        top: 16rem;
+        right: 50%;
+    transform: translateX(-500px);
+    transition: all 0.4s;
+    scale: 1.8;
+}
+
+.king {
+    position: absolute;
+        top: 16rem;
+        right: 120%;
+    transform: translateX(500px);
+    transition: all 1.4s;
+    scale: 1.8;
+}
+
+.start-board {
+    background-color: transparent;
+    border: none;
+    color: yellow;
+    font-family: fantasy;
+    font-size: 6rem;
+    letter-spacing: 0.5rem;
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: red;
+    position: absolute;
+        top: 20rem;
+        left: 44%;
+}
+
+.start-board button {
+    background-color: transparent;
+    border: none;
+    color: yellow;
+    font-family: fantasy;
+    font-size: 6rem;
+    letter-spacing: 0.5rem;
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: red;
+}

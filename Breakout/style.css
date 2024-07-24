@@ -1,0 +1,39 @@
+.asta {
+    background-image: url('images/asta3.png');
+    background-size: cover;
+    height: 25rem;
+    position: absolute;
+        top: 8rem;
+        right: 0;
+    width: 20%;
+}
+
+
+.block {
+    background-color: transparent;
+    background-image: url('images/lucifero.png');
+    background-size: auto;
+    height: 5%;
+    position: absolute;
+    width: 10%;
+}
+
+.container {
+    border: solid black 5px;
+    background-image: url('images/lucifero.png');
+    background-size: cover;
+    height: 30rem;
+    margin: 5rem auto;
+    position: relative;
+    width: 60%;
+}
+
+.yuno {
+    background-image: url('images/yuno3.png');
+    background-size: cover;
+    height: 25rem;
+    position: absolute;
+        top: 8rem;
+        left: 0;
+    width: 20%;
+}

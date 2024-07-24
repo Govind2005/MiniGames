@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: whitesmoke;
+    font-family: fantasy;
+    font-size: 2.5rem;
+    text-decoration: none;
+}
+
+body {
+    background-image: radial-gradient(red,rgb(91, 48, 48));
+}
+
+main {
+    display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 5rem;
+        justify-content: center;
+}
+
+
+main img,video {
+    background-color: transparent; 
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/* Class selector */
+
+.balloon {
+    background: rgb(58, 4, 58)0202;
+    border-radius: 50%;
+    box-shadow: 10px 10px 50px rgba(0, 0,0,0.2);
+    height: 50px;
+    position: absolute;
+        top: 55rem;
+    width: 50px;
+}
+
+.box {
+    border: double violet 5px;
+    box-shadow: 10px 10px 500px rgba(0, 0,0,0.2);
+    height: 20rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    width: 25rem;
+    z-index: 1000;
+} 
+
+.box:hover {
+    scale: 1.2;
+}
+
+
+.header {
+    color: pink;
+    background-image: radial-gradient(red,rgb(91, 48, 48));
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4rem;
+    margin-bottom: 11rem;
+    padding: 1rem;
+    text-align: center;
+    z-index: 1000;
+}
+
+
+
